@@ -1,0 +1,6 @@
+documentation:
+- '**/*.md'
+frontend:
+- '**/*.js'
+backend:
+- '**/*.py'

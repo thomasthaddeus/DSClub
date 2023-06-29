@@ -1,0 +1,12 @@
+{
+    "cSpell.enableFiletypes": [
+        "csv",
+        "dockercompose",
+        "dockerfile",
+        "editorconfig",
+        "git-rebase",
+        "gitignore",
+        "ini",
+        "ssh_config"
+    ]
+}

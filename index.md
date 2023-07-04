@@ -1,4 +1,11 @@
-# DS Club
+---
+title: DS Club
+slug: home
+layout: default
+author: Thaddeus Thomas
+github_username: thomasthaddeus
+---
+
 
 The DS Club 10-week program is a well-structured curriculum designed to guide members in learning about data science in an interactive and engaging way. Each week focuses on a different topic, which varies from basic concepts to hands-on workshops, networking, and project showcases.
 

@@ -1,12 +1,14 @@
 {
-    "cSpell.enableFiletypes": [
-        "csv",
-        "dockercompose",
-        "dockerfile",
-        "editorconfig",
-        "git-rebase",
-        "gitignore",
-        "ini",
-        "ssh_config"
-    ]
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "cSpell.enableFiletypes": [
+    "gitignore",
+    "csv",
+    "dockercompose",
+    "dockerfile",
+    "editorconfig",
+    "git-rebase",
+    "ini",
+    "ssh_config"
+  ]
 }

@@ -1,32 +1,60 @@
 ---
-title: Home
-layout: home
+title: DS Club
+slug: home
+layout: Home
+author: Thaddeus Thomas
+github_username: thomasthaddeus
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+The DS Club 10-week program is a well-structured curriculum designed to guide members in learning about data science in an interactive and engaging way. Each week focuses on a different topic, which varies from basic concepts to hands-on workshops, networking, and project showcases.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+## Weekly Topics
 
-More specifically, the created site:
+### Week 1: Overview of the DS Club
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+### [Week 2: Basics of Data Science](/_posts/2023-07-12-week_2.md){ .btn }
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+This week focuses on the foundational concepts of data science. We'll cover topics such as the different roles in data science (data analyst, data engineer, data scientist), the data science process (data collection, cleaning, exploration, modeling, evaluation, and interpretation), and the tools commonly used in the field (Python, R, SQL).
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+### Week 3: Hands-on Workshop: Python for Data Science
 
-To get started with creating a site, just click "[use this template]"!
+We will dive into the Python programming language, focusing on the skills needed for data analysis. Members will be introduced to Python syntax and data structures, as well as important libraries for data science such as Pandas and Numpy. We'll practice reading data into Python, performing basic data cleaning, and conducting a simple data analysis.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+### Week 4: Guest Lecture
 
-----
+For this session, we'll have a guest speaker from the industry or academia to share their experience and insights about data science. Topics might range from emerging trends, real-world applications, to career advice. A Q&A session will be included to allow club members to interact with the guest.
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+### Week 5: Data Visualization Workshop
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+Data visualization plays a crucial role in data science. This week, we'll learn about the basic principles of data visualization and get hands-on experience creating plots and charts using libraries/tools such as Matplotlib, Seaborn, ggplot, or Tableau.
+
+### Week 6: Machine Learning Basics
+
+This session will introduce the concept of machine learning and its types, including supervised, unsupervised, and reinforcement learning. We'll discuss basic algorithms, the concept of training and testing data, and the fundamentals of model evaluation. The session will also include a demonstration of a simple machine learning model using Python or another tool.
+
+### Week 7: Project Showcase
+
+Members will have an opportunity to present their data science projects or analyses. This is a great way to share learning experiences, get feedback, and learn from peers.
+
+### Week 8: Mini Data Competition/Hackathon
+
+We'll host a mini data competition or hackathon where members will form teams and solve a real-world data problem. This will be a fun, engaging way to apply learned skills.
+
+### Week 9: Data Ethics Discussion
+
+This week, we'll engage in a meaningful discussion about the importance of ethics in data science, including real-world examples of ethical dilemmas. This will encourage members to think critically about the implications of their work.
+
+### Week 10: Wrap-up and Next Steps
+
+In our final week, we'll reflect on the past 10 weeks, discuss what was learned, what went well, and what could be improved.
+We'll also collect feedback to improve future sessions and discuss plans for the club moving forward.
+
+## End Goal
+
+The key to our club's success is to make each week interactive and engaging, whether that's through discussions, Q&A sessions, or collaborative activities.
+
+Our aim is for all members to feel involved and gain the maximum benefit from their participation in the DS Club.
+
+
+
+{% include footer.html %}

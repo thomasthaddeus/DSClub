@@ -360,3 +360,6 @@ pip-wheel-metadata/
 # when running locally, uncomment the following line:
 # _theme/
 # Ignore dotenv environment variables file
+
+
+/docs/pdf/DSCalendar

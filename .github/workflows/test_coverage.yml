@@ -1,14 +1,9 @@
 name: Test Coverage
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push, pull_request]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -17,16 +12,18 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.x.x
+        ruby-version: 3.2.2
 
     - name: Install dependencies
-      run: bundle install
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
 
     - name: Run tests with coverage
       run: bundle exec rspec
 
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v2
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
-        fail_ci_if_error: true
+    #- name: Upload coverage to Codecov
+    #  uses: codecov/codecov-action@v2
+    #  with:
+    #    token: ${{ secrets.CODECOV_TOKEN }}
+    #    fail_ci_if_error: true

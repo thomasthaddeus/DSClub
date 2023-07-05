@@ -1,11 +1,10 @@
 ---
 title: DS Club
 slug: home
-layout: default
+layout: Home
 author: Thaddeus Thomas
 github_username: thomasthaddeus
 ---
-
 
 The DS Club 10-week program is a well-structured curriculum designed to guide members in learning about data science in an interactive and engaging way. Each week focuses on a different topic, which varies from basic concepts to hands-on workshops, networking, and project showcases.
 
@@ -13,7 +12,7 @@ The DS Club 10-week program is a well-structured curriculum designed to guide me
 
 ### Week 1: Overview of the DS Club
 
-### Week 2: Basics of Data Science
+### [Week 2: Basics of Data Science](/_posts/2023-07-12-week_2.md){ .btn }
 
 This week focuses on the foundational concepts of data science. We'll cover topics such as the different roles in data science (data analyst, data engineer, data scientist), the data science process (data collection, cleaning, exploration, modeling, evaluation, and interpretation), and the tools commonly used in the field (Python, R, SQL).
 
@@ -41,18 +40,30 @@ Members will have an opportunity to present their data science projects or analy
 
 We'll host a mini data competition or hackathon where members will form teams and solve a real-world data problem. This will be a fun, engaging way to apply learned skills.
 
+### Week 8: Mini Data Competition/Hackathon
 ### Week 9: Data Ethics Discussion
 
+We'll host a mini data competition or hackathon where members will form teams and solve a real-world data problem. This will be a fun, engaging way to apply learned skills.
 This week, we'll engage in a meaningful discussion about the importance of ethics in data science, including real-world examples of ethical dilemmas. This will encourage members to think critically about the implications of their work.
 
+### Week 9: Data Ethics Discussion
 ### Week 10: Wrap-up and Next Steps
 
+This week, we'll engage in a meaningful discussion about the importance of ethics in data science, including real-world examples of ethical dilemmas. This will encourage members to think critically about the implications of their work.
 In our final week, we'll reflect on the past 10 weeks, discuss what was learned, what went well, and what could be improved.
 We'll also collect feedback to improve future sessions and discuss plans for the club moving forward.
 
+### Week 10: Wrap-up and Next Steps
 ## End Goal
 
-The key to our club's success is to make each week interactive and engaging, whether that's through discussions, Q&A sessions, or collaborative activities. 
+In our final week, we'll reflect on the past 10 weeks, discuss what was learned, what went well, and what could be improved.
+We'll also collect feedback to improve future sessions and discuss plans for the club moving forward.
+The key to our club's success is to make each week interactive and engaging, whether that's through discussions, Q&A sessions, or collaborative activities.
+
+## End Goal
+Our aim is for all members to feel involved and gain the maximum benefit from their participation in the DS Club.
+
 
 Our aim is for all members to feel involved and gain the maximum benefit from their participation in the DS Club.
 
+{% include footer.html %}

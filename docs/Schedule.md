@@ -1,20 +1,31 @@
-# DS Club
+---
+title: Calendar
+subtitle: Data Science Club Summer 2023
+author: Thaddeus Thomas
+layout: post
+subtitle: Data Visualization Workshop
+date: 2023-07-05 05:53:10 -0600
+categories: jekyll update
+---
 
-- [DS Club](#ds-club)
-  - [Weekly Ideas](#weekly-ideas)
-  - [10-week program](#10-week-program)
-    - [One-hour weekly sessions Possible Schedule](#one-hour-weekly-sessions-possible-schedule)
-    - [Week 1: Introduction and Kick-Off](#week-1-introduction-and-kick-off)
-    - [Week 2: Basics of Data Science](#week-2-basics-of-data-science)
-    - [Week 3: Hands-on Workshop: Python for Data Science](#week-3-hands-on-workshop-python-for-data-science)
-    - [Week 4: Guest Lecture](#week-4-guest-lecture)
-    - [Week 5: Data Visualization Workshop](#week-5-data-visualization-workshop)
-    - [Week 6: Machine Learning Basics](#week-6-machine-learning-basics)
-    - [Week 7: Project Showcase](#week-7-project-showcase)
-    - [Week 8: Mini Data Competition/Hackathon](#week-8-mini-data-competitionhackathon)
-    - [Week 9: Data Ethics Discussion](#week-9-data-ethics-discussion)
-    - [Week 10: Wrap-up and Next Steps](#week-10-wrap-up-and-next-steps)
-  - [Weekly Meeting Agenda](#weekly-meeting-agenda)
+{ .toc -->}
+
+
+
+
+- [Weekly Ideas](#weekly-ideas)
+- [10-week program](#10-week-program)
+  - [One-hour weekly sessions Possible Schedule](#one-hour-weekly-sessions-possible-schedule)
+  - [Week 1: Introduction and Kick-Off](#week-1-introduction-and-kick-off)
+  - [Week 2: Basics of Data Science](#week-2-basics-of-data-science)
+  - [Week 3: Hands-on Workshop: Python for Data Science](#week-3-hands-on-workshop-python-for-data-science)
+  - [Week 4: Guest Lecture](#week-4-guest-lecture)
+  - [Week 5: Data Visualization Workshop](#week-5-data-visualization-workshop)
+  - [Week 6: Machine Learning Basics](#week-6-machine-learning-basics)
+  - [Week 7: Project Showcase](#week-7-project-showcase)
+  - [Week 8: Mini Data Competition/Hackathon](#week-8-mini-data-competitionhackathon)
+  - [Week 9: Data Ethics Discussion](#week-9-data-ethics-discussion)
+  - [Week 10: Wrap-up and Next Steps](#week-10-wrap-up-and-next-steps)
 
 ## Weekly Ideas
 
@@ -132,33 +143,4 @@ Remember to include some time for Q&A and open discussions in each session, and 
 4. Thank and congratulate everyone for their participation.
 5. Each week should be interactive and encourage participation from all members, whether that's through discussions, Q&A sessions, or collaborative activities. The more involved the members feel, the more beneficial the club will be.
 
----
-
-## Weekly Meeting Agenda
-
-Each meeting can have its unique structure depending on the nature of the session, but it's useful to have a general framework to ensure meetings are well-organized and efficient. Below is an example of a simple structure for a one-hour meeting:
-
-1. **Introduction** (5-10 minutes):
-
-   - Welcome participants.
-   - Share the agenda for the meeting.
-   - Recap the last meeting (if applicable) and note any follow-ups.
-
-2. **Main Agenda** (40-45 minutes):
-
-   - This is where the main activities of the meeting will take place.
-   - For a **workshop** or **lecture**, this will include the main presentation and demonstration.
-   - For a **discussion**, this may involve presenting the topic and then facilitating a group discussion.
-   - For a **hackathon** or **project showcase**, this would include the actual work or presentations.
-
-3. **Q&A/Discussion** (5-10 minutes):
-
-   - Reserve some time for attendees to ask questions or discuss the day's topic further.
-   - Encourage participation and interaction.
-
-4. **Conclusion and Looking Ahead** (2-3 minutes):
-   - Wrap up the meeting and summarize key points.
-   - Briefly mention what the next meeting will entail.
-   - Thank everyone for their participation.
-
-This is a very flexible structure and can be adjusted to better suit the type and purpose of each meeting. For instance, a hands-on workshop might require more time for the main agenda, while a planning meeting might have more time allocated to discussion. The key is to plan and communicate the schedule in advance so that attendees know what to expect and can prepare accordingly.
+{% include meeting_agenda.md %}

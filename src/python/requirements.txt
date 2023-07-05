@@ -1,0 +1,6 @@
+nes_py
+stable_baselines3
+gym_super_mario_bros
+gym
+matplotlib
+OS

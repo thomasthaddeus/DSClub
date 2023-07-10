@@ -1,9 +1,3 @@
-"""
-_summary_
-
-_extended_summary_
-"""
-
 # Load libraries
 import pandas as pd
 import numpy as np

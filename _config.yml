@@ -27,13 +27,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 email: your-email@example.com
 theme: just-the-docs
 baseurl: "/ds-club" # the subpath of your site, e.g. /blog
-url: "https://apparellnstuff.me/"
+url: "https://apparellnstuff.me"
 twitter_username: thaddeusmaxima
 github_username: thomasthaddeus
-
-# [Name of visual theme]
-#theme: jekyll-theme-minimal
-remote_theme: pages-themes/minimal@v0.2.0
 
 # [Conversion]
 markdown: kramdown

@@ -1,5 +1,5 @@
 nes_py
-stable_baselines3
+stable_baselines3['extras']
 gym_super_mario_bros
 gym
 matplotlib

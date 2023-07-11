@@ -26,8 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 email: thomasthaddeus@cityu.edu
 theme: just-the-docs
-# baseurl: "/ds-club" # the subpath of your site, e.g. /blog
-# url: "https://apparellnstuff.me"
+baseurl: "/ds-club" # the subpath of your site, e.g. /blog
+url: "https://apparellnstuff.me"
 twitter_username: thaddeusmaxima
 github_username: thomasthaddeus
 
@@ -60,13 +60,13 @@ include:
 # their entries' file path in the `include:` list.
 #
 # exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

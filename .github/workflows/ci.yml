@@ -24,3 +24,21 @@ jobs:
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Build with Jekyll
         run: bundle exec jekyll build
+
+#name: Continuous Integration
+#on: [push, pull_request]
+#jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#      - name: Set up Python
+#        uses: actions/setup-python@v2
+#        with:
+#          python-version: 3.11.4
+#          architecture: x64
+#      - name: Install dependencies
+#        run: pip install -r requirements.txt
+#      - name: Run Tests
+#        run: python -m pytest
+

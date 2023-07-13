@@ -1,4 +1,10 @@
-# Week 5: Data Wrangling with Pandas
+---
+title: Data Wrangling with Pandas
+week-no: 5
+parent: workshops
+layout: default
+theme: default
+---
 
 **Objective**: To learn how to manipulate data using Pandas.
 
@@ -12,33 +18,32 @@
 
 <details markdown="1"><summary>Table of Contents</summary>
 
-- [Week 5: Data Wrangling with Pandas](#week-5-data-wrangling-with-pandas)
-  - [Materials](#materials)
-  - [Lab Outline](#lab-outline)
-    - [Loading Data into Pandas DataFrame](#loading-data-into-pandas-dataframe)
-    - [Filtering Data](#filtering-data)
-    - [Sorting Data](#sorting-data)
-    - [Grouping and Aggregation](#grouping-and-aggregation)
-    - [Handling Missing Data](#handling-missing-data)
-    - [Feature Engineering](#feature-engineering)
-  - [Load and use data from JSON and SQL databases in Python](#load-and-use-data-from-json-and-sql-databases-in-python)
-    - [JSON](#json)
-    - [SQL](#sql)
-    - [MySQL | PostgreSQL](#mysql--postgresql)
-    - [Merge, Join, and Concatenate](#merge-join-and-concatenate)
-    - [Pivot Tables](#pivot-tables)
-    - [Date Functionality](#date-functionality)
-    - [Visualizing Data](#visualizing-data)
-    - [Applying Functions](#applying-functions)
-    - [Multi-Indexing](#multi-indexing)
-    - [Reshaping and Pivoting](#reshaping-and-pivoting)
-    - [String Manipulation](#string-manipulation)
-    - [Categorical Data](#categorical-data)
-    - [Setting With Enlargement](#setting-with-enlargement)
-    - [Time Series Functionality](#time-series-functionality)
-    - [Reading HTML Tables](#reading-html-tables)
-    - [Data Types in Pandas](#data-types-in-pandas)
-  - [Discussion and Conclusion:](#discussion-and-conclusion)
+- [Materials](#materials)
+- [Lab Outline](#lab-outline)
+  - [Loading Data into Pandas DataFrame](#loading-data-into-pandas-dataframe)
+  - [Filtering Data](#filtering-data)
+  - [Sorting Data](#sorting-data)
+  - [Grouping and Aggregation](#grouping-and-aggregation)
+  - [Handling Missing Data](#handling-missing-data)
+  - [Feature Engineering](#feature-engineering)
+- [Load and use data from JSON and SQL databases in Python](#load-and-use-data-from-json-and-sql-databases-in-python)
+  - [JSON](#json)
+  - [SQL](#sql)
+  - [MySQL | PostgreSQL](#mysql--postgresql)
+  - [Merge, Join, and Concatenate](#merge-join-and-concatenate)
+  - [Pivot Tables](#pivot-tables)
+  - [Date Functionality](#date-functionality)
+  - [Visualizing Data](#visualizing-data)
+  - [Applying Functions](#applying-functions)
+  - [Multi-Indexing](#multi-indexing)
+  - [Reshaping and Pivoting](#reshaping-and-pivoting)
+  - [String Manipulation](#string-manipulation)
+  - [Categorical Data](#categorical-data)
+  - [Setting With Enlargement](#setting-with-enlargement)
+  - [Time Series Functionality](#time-series-functionality)
+  - [Reading HTML Tables](#reading-html-tables)
+  - [Data Types in Pandas](#data-types-in-pandas)
+- [Discussion and Conclusion](#discussion-and-conclusion)
 
 </details>
 
@@ -340,9 +345,10 @@ Sure, here's a table illustrating the types of data that can be ingested and out
 | SAS          | pd.read_sas('filename.sas7bdat')                  | N/A                                        |
 | Pickle       | pd.read_pickle('filename.pkl')                    | df.to_pickle('filename.pkl')               |
 
-## Discussion and Conclusion:
+## Discussion and Conclusion
 
 Discuss the topics covered, encourage questions, and sum up the session.
 
 Remember to replace 'sample_data.csv' with the path to the actual dataset you're going to use for this session. All the data manipulations done in this lab should be related to the real-world data you're using, this will give the students a much better understanding and make the learning process more engaging.
-Please note that for some commands, you might need to install additional libraries. For example, reading and writing to Excel files requires the openpyxl library, and interacting with SQL databases might require libraries like sqlite3, psycopg2, or mysql-connector-python.
+
+Please note that for some commands, you might need to install additional libraries. For example, reading and writing to Excel files requires the openpyxl library, and interacting with SQL databases might require libraries like `sqlite3`, `psycopg2`, or `mysql-connector-python`.

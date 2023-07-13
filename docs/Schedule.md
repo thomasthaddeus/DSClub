@@ -2,16 +2,11 @@
 title: Calendar
 subtitle: Data Science Club Summer 2023
 author: Thaddeus Thomas
-layout: post
-subtitle: Data Visualization Workshop
-date: 2023-07-05 05:53:10 -0600
+layout: default
 categories: jekyll update
 ---
 
 { .toc -->}
-
-
-
 
 - [Weekly Ideas](#weekly-ideas)
 - [10-week program](#10-week-program)

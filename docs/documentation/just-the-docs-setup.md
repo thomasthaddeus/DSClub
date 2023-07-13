@@ -1,5 +1,5 @@
 ---
-title: just the docs setup
+title: just the docs setup original
 layout: default
 theme: default
 ---

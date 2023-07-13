@@ -1,8 +1,11 @@
 ---
 title: DS Club
 subtitle: Summer 2023 Schedule and Activities
-layout: default
 theme: default
+author: Thaddeus Thomas
+layout: post
+date: 2023-07-05 05:53:10 -0600
+categories: jekyll update
 ---
 
 Hey everyone,

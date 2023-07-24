@@ -8,9 +8,11 @@ Scikit-learn is a library in Python that provides many unsupervised and supervis
 
 As you build robust Machine Learning programs, it’s helpful to have all the sklearn commands all in one place in case you forget.
 
-Linear Regression
+### Linear Regression
+
 Import and create the model:
 
+```python
 from sklearn.linear_model import LinearRegression
 
 your_model = LinearRegression()
@@ -23,17 +25,18 @@ Predict:
 
 predictions = your_model.predict(your_x_data)
 .score(): returns the coefficient of determination R²
-Naive Bayes
+```
+
+### Naive Bayes
+
 Import and create the model:
 
+```python
 from sklearn.naive_bayes import MultinomialNB
 
 your_model = MultinomialNB()
-Fit:
-
-your_model.fit(x_training_data, y_training_data)
+Fit:   your_model.fit(x_training_data, y_training_data)
 Predict:
-
 # Returns a list of predicted classes - one prediction for every data point
 predictions = your_model.predict(your_x_data)
 
@@ -93,5 +96,4 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.8, test_s
 train_size: the proportion of the dataset to include in the train split
 test_size: the proportion of the dataset to include in the test split
 random_state: the seed used by the random number generator [optional]
-Robot Emoji
-Happy Coding!
+```

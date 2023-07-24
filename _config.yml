@@ -40,6 +40,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-feed
   - github-pages
+  - just-the-docs
 
 relative_links:
   enabled: true

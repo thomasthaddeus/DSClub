@@ -24,9 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is the initial build of the DS-Club website.
   I hope to add a lot more code before shipping this website
 email: thomasthaddeus@cityu.edu
-remote_theme: pmarsceill/just-the-docs
+#remote_theme: pmarsceill/just-the-docs
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://apparellnstuff.me"
+url: "https://apparellnstuff.me/DS-Club"
 twitter_username: thaddeusmaxima
 github_username: thomasthaddeus
 
@@ -35,9 +35,9 @@ markdown: kramdown
 
 # [Used rubygem plugins]
 plugins:
-  - jemoji
-  - jekyll-relative-links
-  - jekyll-feed
+  #- jemoji
+  #- jekyll-relative-links
+  #- jekyll-feed
   - github-pages
 
 relative_links:

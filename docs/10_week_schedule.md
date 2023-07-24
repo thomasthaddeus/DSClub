@@ -25,7 +25,7 @@ Our aim is for all members to feel involved and gain the maximum benefit from th
 9. **Week 9**: Data Ethics Discussion
 10. **Week 10**: Wrap-up and Next Steps
 
-<!--{% includes weekly_ideas.md %}-->
+
 
 ## 10-week program
 
@@ -119,5 +119,3 @@ Remember to include some time for Q&A and open discussions in each session, and 
 3. Discuss plans for next sessions, possible guest speakers, events, or topics to cover.
 4. Thank and congratulate everyone for their participation.
 5. Each week should be interactive and encourage participation from all members, whether that's through discussions, Q&A sessions, or collaborative activities. The more involved the members feel, the more beneficial the club will be.
-
-<!--{% include meeting_agenda.md %}-->

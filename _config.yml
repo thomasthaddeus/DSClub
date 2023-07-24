@@ -30,6 +30,8 @@ url: "https://apparellnstuff.me/DS-Club"
 twitter_username: thaddeusmaxima
 github_username: thomasthaddeus
 
+includes_dir: ./_includes
+
 # [Conversion]
 markdown: kramdown
 

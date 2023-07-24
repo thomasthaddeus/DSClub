@@ -7,8 +7,6 @@ date: 2023-07-05 05:53:10 -0600
 categories: jekyll update
 ---
 
-{ .toc --> }
-
 Each week focuses on a different topic, which varies from basic concepts to hands-on workshops, networking, and project showcases.
 
 ## Weekly Topics
@@ -27,7 +25,7 @@ Our aim is for all members to feel involved and gain the maximum benefit from th
 9. **Week 9**: Data Ethics Discussion
 10. **Week 10**: Wrap-up and Next Steps
 
-{% includes weekly_ideas.md %}
+<!--{% includes weekly_ideas.md %}-->
 
 ## 10-week program
 
@@ -122,4 +120,4 @@ Remember to include some time for Q&A and open discussions in each session, and 
 4. Thank and congratulate everyone for their participation.
 5. Each week should be interactive and encourage participation from all members, whether that's through discussions, Q&A sessions, or collaborative activities. The more involved the members feel, the more beneficial the club will be.
 
-{% include meeting_agenda.md %}
+<!--{% include meeting_agenda.md %}-->

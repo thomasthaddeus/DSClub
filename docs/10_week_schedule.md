@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Calendar
 subtitle: Data Science Club Summer 2023
 author: Thaddeus Thomas
@@ -24,8 +23,6 @@ Our aim is for all members to feel involved and gain the maximum benefit from th
 8. **Week 8**: Mini Data Competition/Hackathon
 9. **Week 9**: Data Ethics Discussion
 10. **Week 10**: Wrap-up and Next Steps
-
-
 
 ## 10-week program
 

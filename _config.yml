@@ -26,11 +26,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 email: thomasthaddeus@cityu.edu
 #remote_theme: pmarsceill/just-the-docs
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://apparellnstuff.me/DS-Club"
+url: "https://apparellnstuff.me/"
 twitter_username: thaddeusmaxima
 github_username: thomasthaddeus
-
-includes_dir: ./_includes
 
 # [Conversion]
 markdown: kramdown
@@ -38,7 +36,7 @@ markdown: kramdown
 # [Used rubygem plugins]
 plugins:
   #- jemoji
-  #- jekyll-relative-links
+  - jekyll-relative-links
   #- jekyll-feed
   - github-pages
 

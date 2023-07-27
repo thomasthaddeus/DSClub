@@ -1,6 +1,5 @@
 ---
 title: setup just the docs
-layout: default
 ---
 
 This is a *bare-minimum* template to create a [Jekyll][j1] site that:

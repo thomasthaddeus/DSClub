@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is the initial build of the DS-Club website.
   I hope to add a lot more code before shipping this website
 email: thomasthaddeus@cityu.edu
-theme: just-the-docs
+theme: minima
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://apparellnstuff.me/"
 twitter_username: thaddeusmaxima

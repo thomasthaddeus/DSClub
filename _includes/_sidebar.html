@@ -1,25 +1,25 @@
 <div class="sidebar">
-  <div class="sidebar-item">
+  <div class="sidebar-item" style="padding: 10px; margin-bottom: 15px;">
     <h2>Navigation</h2>
-    <ul>
+    <ul style="list-style-type: none; padding-left: 0;">
       <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
       <li><a href="{{ site.baseurl }}/about.html">About</a></li>
       <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
     </ul>
   </div>
 
-  <div class="sidebar-item">
+  <div class="sidebar-item" style="padding: 10px; margin-bottom: 15px;">
     <h2>Categories</h2>
-    <ul>
+    <ul style="list-style-type: none; padding-left: 0;">
       {% for category in site.categories %}
         <li><a href="{{ site.baseurl }}/category/{{ category | first }}">{{ category | first }}</a></li>
       {% endfor %}
     </ul>
   </div>
 
-  <div class="sidebar-item">
+  <div class="sidebar-item" style="padding: 10px;">
     <h2>Recent Posts</h2>
-    <ul>
+    <ul style="list-style-type: none; padding-left: 0;">
       {% for post in site.posts limit:5 %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}

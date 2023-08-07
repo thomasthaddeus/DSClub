@@ -1,12 +1,12 @@
 <header>
-    <nav>
-        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        <a href="{{ '/docs' | relative_url }}">Docs</a>
-        <a href="{{ '/docs/workshops' | relative_url }}">Workshop</a>
-        <a href="{{ '/docs/documentation' | relative_url }}">Documentation</a>
-        <a href="{{ '/docs/Schedule.md' | relative_url }}">Schedule</a>
-        <!--<a href="{{ '/projects_and_research' | relative_url }}">Agenda</a>-->
-        <!--<a href="{{ '/projects_and_research' | relative_url }}">Agenda</a>-->
-        <!-- Add more navigation links as needed -->
+    <nav style="display: flex; justify-content: space-between; padding: 10px 0;">
+        <a href="{{ '/' | relative_url }}" style="font-weight: bold;">{{ site.title }}</a>
+        <div style="display: flex; gap: 15px;"> <!-- Grouping links for better spacing -->
+            <a href="{{ '/docs' | relative_url }}">Docs</a>
+            <a href="{{ '/docs/workshops' | relative_url }}">Workshop</a>
+            <a href="{{ '/docs/documentation' | relative_url }}">Documentation</a>
+            <a href="{{ '/docs/Schedule.md' | relative_url }}">Schedule</a>
+            <!-- Add more navigation links as needed -->
+        </div>
     </nav>
 </header>

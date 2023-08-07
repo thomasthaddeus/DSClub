@@ -1,0 +1,25 @@
+# Path: .github/workflows/codespaces.yml
+name: "Codespaces"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.devcontainer/**'
+      - '.github/workflows/codespaces.yml'
+      - 'README.md'
+
+jobs:
+  codespaces:
+    name: "Codespaces"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v2
+
+      - name: "Create Codespace"
+        uses: github/codespaces-actions/create-codespace@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}

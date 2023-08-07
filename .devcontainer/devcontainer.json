@@ -1,0 +1,49 @@
+{
+  "name": "Ruby on Rails",
+  "context": "..",
+  "service": "app",
+  "workspaceFolder": "/home/vscode/workspace",
+  "runArgs": ["--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"],
+  "appPort": [3000],
+  "remoteUser": "vscode",
+  "build": {
+    "dockerfile": ".devcontainer/Dockerfile",
+    "args": {
+      "VARIANT": "3.0"
+    }
+  },
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "extensions": [
+      "rebornix.ruby",
+      "bungcip.better-toml",
+      "ms-azuretools.vscode-docker",
+      "ms-vscode-remote.remote-containers"
+    ],
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.lint": {
+      "rubocop": {
+        "useBundler": true
+      }
+    },
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [3000],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "rails server -b"
+
+  // Uncomment when using a ptrace-based debugger like C++
+  // "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+
+  // Uncomment when using a Dockerfile that is not in the root of your project
+  // "dockerFile": "../Dockerfile",
+
+  // Uncomment to use the Docker CLI instead of the docker-compose.yml
+  // "dockerComposeCommand": "up",
+
+  // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+  // "remoteUser": "vscode"
+}

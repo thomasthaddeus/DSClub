@@ -1,8 +1,9 @@
 """data_analyzer.py
 
-This module contains a class, DataAnalyzer, for performing various data analysis tasks on a CSV file.
-The class is able to load data, calculate various statistics, detect outliers, handle missing values, drop duplicates,
-encode categorical features, split data into training and testing sets, and plot data.
+This module contains a class, DataAnalyzer, for performing various data
+analysis tasks on a CSV file. The class is able to load data, calculate various
+statistics, detect outliers, handle missing values, drop duplicates, encode
+categorical features, split data into training and testing sets, and plot data.
 
 Example usage:
 
@@ -38,11 +39,14 @@ Example usage:
     analyzer.export_data('new_file.csv')
 
 Returns:
-    None: This class is used for its side effects of loading, cleaning, transforming, and analyzing data, and potentially plotting results.
+    None: This class is used for its side effects of loading, cleaning,
+    transforming, and analyzing data, and potentially plotting results.
 
 Raises:
-    ValueError: If the CSV file cannot be found, a column name is not found in the DataFrame, an unknown outlier detection method or plot type is specified,
-                or an inappropriate strategy is chosen for handling missing values.
+    ValueError: If the CSV file cannot be found, a column name is not found in
+    the DataFrame, an unknown outlier detection method or plot type is
+    specified, or an inappropriate strategy is chosen for handling missing
+    values.
 """
 
 from scipy.stats import trim_mean, zscore
@@ -95,7 +99,7 @@ class DataAnalyzer:
         return self._data.select_dtypes(include=["object"]).columns.tolist()
 
     @staticmethod
-    def load_data(filename):
+    def load_data(file):
         """
         Load data from a CSV file into a DataFrame.
 
@@ -106,9 +110,9 @@ class DataAnalyzer:
             DataFrame: The loaded data.
         """
         try:
-            df = pd.read_csv(filename)
-        except FileNotFoundError:
-            raise ValueError(f"No such file or directory: '{filename}'")
+            df = pd.read_csv(file)
+        except FileNotFoundError as err:
+            raise ValueError(f"No such file or directory: '{file}'") from err
         return df
 
     def get_summary_statistics(self):

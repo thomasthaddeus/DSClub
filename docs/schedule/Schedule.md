@@ -3,7 +3,6 @@ title: Calendar
 subtitle: Data Science Club Summer 2023
 author: Thaddeus Thomas
 layout: default
-categories: jekyll update
 ---
 
 { .toc -->}

@@ -41,7 +41,7 @@ Final presentations of the project we've been working on. We will also have a di
 
 So that's our exciting schedule for the next 10 weeks. We hope you're excited as we are and looking forward to learning and growing together. Remember, no question is a dumb question, and we're here to support each other on this data journey.
 
-Don't forget to save the dates. Each session will be at 4 pm every Friday. More information to follow soon.
+Don't forget to save the dates. Each session will be at 4 pm every Wednesday. More information to follow soon.
 
 Happy Data Crunching! 🚀📊
 

@@ -88,12 +88,12 @@ In conclusion, Python, R, and SQL are fundamental tools in the data science tool
 
 ## Presentation
 
-**1. Interactive Presentation:** Create a PowerPoint or Google Slides presentation that outlines each role. For each role, include a brief description, key responsibilities, required skills, and potential career paths. Use visuals like diagrams or infographics to make the presentation more engaging. You could also include real-world examples of projects or tasks each role might undertake.
-**2. Role-Playing Activity:** Organize a role-playing activity where members of the club are assigned different roles in a data science project. This will give them a hands-on understanding of what each role does. For example, the data analyst could be tasked with interpreting the data, the data engineer with setting up the data infrastructure, and the data scientist with creating a predictive model.
-**3. Guest Speakers:** Invite professionals from each role to speak about their experiences. This could be done in person or virtually. The speakers could discuss their day-to-day tasks, the projects they work on, and the skills they find most important. This would provide club members with a real-world perspective on each role.
-**4. Panel Discussion:** Organize a panel discussion with professionals from each role. Prepare a list of questions that will help club members understand the differences and similarities between the roles. Allow time for club members to ask their own questions as well.
-**5. Career Path Workshops:** Conduct workshops that delve into the career paths of each role. These could cover the education and skills needed, potential job opportunities, and the future of the role in the industry.
-**6. Case Studies:** Present case studies that involve multiple roles. This will help club members understand how these roles interact and collaborate on real-world projects.
+1. Interactive Presentation: Create a PowerPoint or Google Slides presentation that outlines each role. For each role, include a brief description, key responsibilities, required skills, and potential career paths. Use visuals like diagrams or infographics to make the presentation more engaging. You could also include real-world examples of projects or tasks each role might undertake.
+2. Role-Playing Activity: Organize a role-playing activity where members of the club are assigned different roles in a data science project. This will give them a hands-on understanding of what each role does. For example, the data analyst could be tasked with interpreting the data, the data engineer with setting up the data infrastructure, and the data scientist with creating a predictive model.
+3. Guest Speakers: Invite professionals from each role to speak about their experiences. This could be done in person or virtually. The speakers could discuss their day-to-day tasks, the projects they work on, and the skills they find most important. This would provide club members with a real-world perspective on each role.
+4. Panel Discussion: Organize a panel discussion with professionals from each role. Prepare a list of questions that will help club members understand the differences and similarities between the roles. Allow time for club members to ask their own questions as well.
+5. Career Path Workshops: Conduct workshops that delve into the career paths of each role. These could cover the education and skills needed, potential job opportunities, and the future of the role in the industry.
+6. Case Studies: Present case studies that involve multiple roles. This will help club members understand how these roles interact and collaborate on real-world projects.
 
 ## **Real-World Examples of Projects or Tasks for Data Science Roles**
 

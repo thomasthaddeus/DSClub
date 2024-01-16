@@ -14,10 +14,6 @@ Returns:
     None. The trained model is saved to disk.
 """
 
-
-
-
-# Import necessary libraries
 import os
 import numpy as np
 from nes_py.wrappers import JoypadSpace

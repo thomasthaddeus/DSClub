@@ -26,5 +26,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "rake", "~> 13.0"
 gem "minitest", "~> 5.19"
 gem "faraday", "~> 2.7"
-gem "rexml", "~> 3.2"
+gem "rexml", "~> 3.3"
 gem "nokogiri", "~> 1.16.5"

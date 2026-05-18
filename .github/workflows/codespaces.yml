@@ -1,6 +1,9 @@
 # Path: .github/workflows/codespaces.yml
 name: "Codespaces"
 
+permissions:
+  contents: read
+
 on:
   push:
     branches:
